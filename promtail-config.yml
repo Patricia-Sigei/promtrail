@@ -15,4 +15,4 @@ scrape_configs:
           - localhost
         labels:
           job: cloudops-api
-          __path__: /var/log/api/*.log
+        __path__: /var/lib/docker/containers/*/*-json.log
